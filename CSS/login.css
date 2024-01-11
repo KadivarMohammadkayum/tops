@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    height: 60%;
+    background-color: rgba(71, 159, 216, 0.1);
+}
+
+.logo img{
+    width: 25%;
+    margin-left: 37%;
+    padding: 12px;
+}
+
+#login-page{
+    width: 100%;
+    height: 588px;
+    background-image: url(\../IMG/login-bg.png);
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+.login-form{
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    border: 2px solid rgba(46, 131, 242, 0.742);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.44);
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF5FB;
+    border-radius: 5%;
+}
+
+h1{
+    text-align: center;
+    color: #4C92BE;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+ 
+h2{
+    text-align: center;
+    margin-top: 1%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10%;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    margin: 4% 0%;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #4C92BE;
+    background-color:  #EDF5FB;
+}
+
+.login-form a{
+    color: #4C92BE;
+    margin-top: 4%;
+}
+
+button{
+    background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    margin: 13% 0% 10% 20%;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+#pwd::after{
+    content: "Read this: url() ";
+}
+
+/* ------------------------------ Welcome page start ---------------------------------- */
+
+ul{
+    list-style: none;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a img{
+    width: 14px;
+    height: 14px;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecf5fb;
+}
+
+.logo1 img{
+    width: 63%;
+    padding: 15px;
+    margin-left: 8%;
+    
+}
+
+.information{
+    width: auto;
+    display: flex;
+    margin-right: 6%;
+    /* width: 30%;
+    margin-left: 30px; */
+}
+
+.fa-bell-o{
+    margin-top: 28px;
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+.info{
+    border: 1px solid #2E3192;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    margin-top: 8%;
+}
+
+.info img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 100px;
+    padding: 8px;
+}
+
+.info span{
+    margin-bottom: 100px;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    font-size: 18px;
+    margin-right: 4%;
+}
+
+.fa-angle-down{
+    right: 95px;
+    position: absolute;
+    top: 33px;
+}
+
+.details{
+    display: none;
+    font-size: 16px;
+    position: absolute;
+}
+
+.details a{
+    font-size: 16px;
+}
+
+.details hr{
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.info .logout{
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info:hover .details, .info:focus-within .details{
+    display: block;
+    margin-left: 45px;
+    background-color: #EDF5FB;
+    border: 1px solid rgb(182, 166, 166);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#side-bar{ 
+    /* position: relative; */
+    line-height: 2.1;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+} 
+
+#side-bar img{
+    width: 20px;
+    height: 20px;
+}
+.side-bar-menu{
+    background-color: #EDF5FB;  
+    position: relative;
+    width: 15%;
+}
+.work{
+    display: none;
+    margin-top: -25px;
+    margin-left: 100%;
+    width: 90%;
+    background-color: #ecf5fb;
+    padding: 10px;  
+    position: absolute;
+}
+
+.courses:hover .work,.courses:focus-within .work{
+    display: block;
+}
+
+.a2{
+    margin-left: 25px;
+}
+
+.a3{
+    margin-left: 65px;
+}
+
+.midel-part{
+    width: 60%;
+    height: 506px;
+    background: url(\../IMG/home-banner-web.png) no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-top: 13px;
+    float: left;
+}
+
+.midel-part h3 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 20px;
+    background-color: rgba(255, 25, 0, 0.838);
+    padding: 9px;
+    color: white;
+    border-radius: 5px;
+}
+
+.midel-part h1 {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-size: 38px;
+    color: #525CEB;
+}
+
+.midel-part p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 25%;
+    font-size: 22px;
+}
+
+.btn {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    padding: 5px;
+    color: #000000;
+    font-size: 20px;
+    width: 10%;
+}
+
+form {
+    width: 100%;
+    float: left;
+    padding: 35px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #eef5ff;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    height: 506px;
+    padding-top: 3%;
+}
+
+.reminders li {
+    list-style-type: none;
+    margin-top: 3%;
+}
+
+.reminders span {
+    font-size: 28px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.reminders h5 {
+    margin-left: 50px;
+    margin-top: -70px;
+}
+
+.reminders p {
+    margin-left: 50px;
+}
+
+.reminders h6 {
+    width: 100%;
+    margin-top: -28px;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+#bell {
+    margin-left: -20px;
+    color: #bebe0e;
+}
+
+.reminders h4 {
+    margin-left: 200px;
+    padding: 0px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: -40px;
+    color: white;
+    background-color: rgb(218, 21, 21);
+    text-align: center;
+    width: 40px;
+}
+
+
+
+
